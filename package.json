@@ -1,0 +1,27 @@
+{
+	"name": "@jrcligny/eslint-config",
+	"private": true,
+	"version": "1.0.0",
+	"description": "My personal ESLint configuration for Node.js projects",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jrcligny/eslint-config.git"
+	},
+	"bugs": {
+		"url": "https://github.com/jrcligny/eslint-config/issues"
+	},
+	"homepage": "https://github.com/jrcligny/eslint-config#readme",
+	"author": "Jean-Rémy Cligny",
+	"license": "SEE LICENSE IN LICENSE.MD",
+	"main": "./index.js",
+	"type": "module",
+	"scripts": {
+		"lint": "eslint ."
+	},
+	"peerDependencies": {
+		"eslint": "^8.57.0"
+	},
+	"devDependencies": {
+		"eslint": "^8.57.0"
+	}
+}
