@@ -1,5 +1,12 @@
 # @jrcligny/eslint-config
 
+## Roadmap
+
+- [ ] [@stylistic/eslint-plugin-js](https://eslint.style/packages/default)
+- [ ] [@typescript-eslint/eslint-plugin](https://typescript-eslint.io)
+- [ ] [eslint-plugin-n](https://github.com/eslint-community/eslint-plugin-n)
+- [ ] [eslint-plugin-security](https://github.com/eslint-community/eslint-plugin-security)
+
 ## Changelog
 
 All notable changes to this project are documented in [CHANGELOG.md](./CHANGELOG.md).

@@ -1,8 +1,19 @@
-import js from "@eslint/js";
+import javascript from "./lib/javascript/index.js";
+
+const defaultOptions = {
+	files: ["**/*.js"],
+	languageOptions: {
+		ecmaVersion: 2022,
+	},
+};
+
+export const javascriptConfig = {
+	...defaultOptions,
+	rules: {
+		...javascript,
+	}
+};
 
 export default [
-	{
-		files: ["**/*.ts", "**/*.js"],
-		rules: js.configs.recommended.rules,
-	}
+	javascriptConfig,
 ];

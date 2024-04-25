@@ -1,7 +1,7 @@
 {
 	"name": "@jrcligny/eslint-config",
 	"private": true,
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"description": "My personal ESLint configuration for Node.js projects",
 	"repository": {
 		"type": "git",
